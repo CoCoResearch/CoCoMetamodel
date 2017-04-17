@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coCoMM:CoCo
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:coCoMM="http://www.example.org/coCoMM"
+    xsi:schemaLocation="http://www.example.org/coCoMM coCoMM.ecore">
+  <featureModels
+      name="A"
+      isDomain="true">
+    <root id="f"
+        name="f"
+        featureModel="//@featureModels.0"/>
+  </featureModels>
+  <featureModels>
+    <root id="d"
+        name="d"
+        featureModel="//@featureModels.1">
+      <treeConstraints
+          type="mandatory">
+        <children
+            id="ff"
+            name="ff"
+            featureModel="//@featureModels.1"/>
+      </treeConstraints>
+    </root>
+  </featureModels>
+</coCoMM:CoCo>
